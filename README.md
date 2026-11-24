@@ -22,8 +22,8 @@ Large language models generate one token at a time, yet their responses have con
 Python 3.12 and a CUDA GPU are required.
 
 ```bash
-git clone https://github.com/mamerzouk/llm_output_length.git
-cd llm_output_length
+git clone https://github.com/mamerzouk/llm-output-length.git
+cd llm-output-length
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e . --no-deps
